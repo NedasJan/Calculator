@@ -40,9 +40,7 @@ public class UserInterface extends JLabel implements ActionListener {
     }
 
     private void setupPanel() {
-        setBounds(0, 0, 365, 510); //Windows;
-        //setBounds(0, 0, 350, 500); //Mac OS;
-
+        setBounds(0, 0, 365, 510);
         setBackground(new Color(170, 170, 170));
         setOpaque(true);
     }
