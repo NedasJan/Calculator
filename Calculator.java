@@ -11,7 +11,8 @@ public class Calculator extends JFrame {
 
     private void setupJFrame() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(365, 510); 
+        setSize(350, 500); //Mac os
+        //setSize(365, 510); //Windows;
         setResizable(false);
         setTitle("Calculator");
         setLayout(null);
