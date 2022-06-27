@@ -11,17 +11,12 @@ public class Calculator extends JFrame {
 
     private void setupJFrame() {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-
-        //setSize(350, 500); //Mac OS;
-        setSize(365, 510); //Windows;
-
+        setSize(365, 510); 
         setResizable(false);
         setTitle("Calculator");
         setLayout(null);
         setContentPane(new UserInterface());
         setVisible(true);
-
-        //setIconImage(new ImageIcon("icons/CalculatorIcon.png").getImage()); //Mac OS;
-        setIconImage(new ImageIcon("icons\\CalculatorIcon.png").getImage()); //Windows;
+        setIconImage(new ImageIcon("icons/CalculatorIcon.png").getImage());
     }
 }
